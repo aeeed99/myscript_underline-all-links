@@ -1,0 +1,7 @@
+:any-link {
+    text-decoration: underline color-mix(in srgb, currentcolor 30%, transparent) !important;
+}
+
+:any-link:is(:hover, :active, :focus) {
+    text-decoration: underline !important;
+}
